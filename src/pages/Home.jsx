@@ -28,7 +28,7 @@ const Home = () => {
           <p className='font-extrabold'>Give me your name to start</p>
           <form className='flex justify-evenly gap-3' onSubmit={handleSubmit}>
             <input className='text-center rounded-sm' id='nameTrainer' type="text" placeholder='Your name...'/>
-            <button className='rounded-sm font-bold text-xl hover:bg-lime-400 transition-colors italic'>Start</button>
+            <button className='rounded-sm font-bold text-xl hover:bg-lime-400 transition-colors italic px-1'>Start</button>
           </form>
         </article>
       </section>
