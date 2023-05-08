@@ -6,8 +6,7 @@ export default {
   ],
   theme: {
     screens: {
-      responsive : '900px',
-      responsive2: '370px'
+      responsive : '400px',
     },
     extend: {
       fontFamily: {
