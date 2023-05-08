@@ -17,11 +17,11 @@ const Home = () => {
 
   return (
 
-    <section className='min-h-screen grid grid-rows-[1fr_auto]'>
+    <section className='grid grid-rows-[1fr_auto] min-h-screen bg-[url("/images/Pokeball.webp")] bg-no-repeat bg-center'>
 
-      <section className='bg-[url("/images/home2.jpg")] bg-no-repeat bg-contain bg-center responsive:bg-[url("/images/home3.webp")] bg-amber-200 responsive:bg-amber-100 '>
-        <article className='grid gap-5 place-content-center text-center mt-31'>
-          <div className='mt-4 w-[240px] responsive:w-[300px] responsive:mt-60 responsive:mb-[1px] mx-auto responsive2:mt-40 responsive2:mb-28'>
+      <section >
+        <article className='grid gap-5 place-content-center text-center mt-15'>
+          <div className=''>
             <img src="/images/pokedex.png" alt="" />
           </div>
           <h2 className='text-4xl font-medium mt-[140px]'>Hello trainer!</h2>
@@ -33,7 +33,7 @@ const Home = () => {
         </article>
       </section>
 
-    {/* <Footer/> */}
+    <Footer/>
     </section>
 
   )
